@@ -8,7 +8,7 @@ import java.util.stream.Stream;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class CalculatorServiceImplParameterizedTestt {
+public class CalculatorServiceImplParameterizedTest {
     private final CalculatorServiceImpl calculatorService = new CalculatorServiceImpl();
 
     public static Stream<Arguments> argumentsStream() {
